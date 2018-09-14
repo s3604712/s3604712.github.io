@@ -6,9 +6,15 @@ html
   padding: 0;}
 
 body
-{ font: normal .80em 'trebuchet ms', arial, sans-serif;
-  background: #F0EFE2 url(background.png) repeat;
-  color: #FFF;}
+{
+	background: #F0EFE2 url(background.png) repeat;
+	color: #FFF;
+	font-family: 'trebuchet ms', arial, sans-serif;
+	font-size: 0.8em;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+}
 
 p
 { padding: 0 0 20px 0;
