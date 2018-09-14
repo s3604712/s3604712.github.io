@@ -6,9 +6,15 @@ html
   padding: 0;}
 
 body
-{ font: normal .80em 'trebuchet ms', arial, sans-serif;
-  background: #F0EFE2 url(background.png) repeat;
-  color: #777;}
+{
+	background: #F0EFE2 url(background.png) repeat;
+	color: #000;
+	font-family: 'trebuchet ms', arial, sans-serif;
+	font-size: 0.8em;
+	font-style: normal;
+	font-weight: bold;
+	font-variant: normal;
+}
 
 p
 { padding: 0 0 20px 0;
@@ -18,10 +24,12 @@ img
 { border: 0;}
 
 h1, h2, h3, h4, h5, h6 
-{ font: normal 175% 'century gothic', arial, sans-serif;
-  color: #43423F;
-  margin: 0 0 15px 0;
-  padding: 15px 0 5px 0;}
+{
+	font: normal 175% 'century gothic', arial, sans-serif;
+	color: #000000;
+	margin: 0 0 15px 0;
+	padding: 15px 0 5px 0;
+}
 
 h2
 { font: normal 175% 'century gothic', arial, sans-serif;
@@ -154,11 +162,14 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
   background: #0D66A5;}
 
 #site_content
-{ width: 837px;
-  overflow: hidden;
-  margin: 0 auto 0 auto;
-  padding: 20px 24px 20px 37px;
-  background: #FFF;} 
+{
+	width: 837px;
+	overflow: hidden;
+	margin: 0 auto 0 auto;
+	padding: 20px 24px 20px 37px;
+	background: #FFF;
+	font-family: Georgia, "Times New Roman", Times, serif;
+} 
 
 .sidebar
 { float: right;
@@ -184,9 +195,12 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
   text-decoration: none;} 
 
 #content
-{ text-align: left;
-  width: 595px;
-  padding: 0;}
+{
+	text-align: left;
+	width: 595px;
+	padding: 0;
+	font-family: "century gothic", arial, sans-serif;
+}
 
 #content ul
 { margin: 2px 0 22px 0px;}
@@ -293,3 +307,17 @@ table tr td
 { background: #F0EFE2;
   color: #47433F;
   border-top: 1px solid #FFF;}
+#main #site_content #content h1 #docs-internal-guid-610e7867-7fff-9b5d-a8a1-996efa399f0d {
+	font-family: Arial, Helvetica, sans-serif;
+}
+#main #site_content #content {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight: bold;
+	color: #000;
+}
+#main #site_content .sidebar {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+#main #site_content .sidebar {
+	font-weight: bold;
+}
